@@ -1,0 +1,201 @@
+
+.navbar-default .navbar-brand {
+  color: #00cc66;
+}
+
+.carousel
+{
+  margin-left:10px;
+}
+
+.screenshot
+{
+  max-height: 600px;
+}
+
+.linkTextingButton.sendButton
+{
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #E45043;
+}
+
+.linkTextingButton.sendButton:hover
+{
+  font-weight: 300;
+  font-size: 16px;
+  background-color: #D71100;
+}
+
+
+.main-container
+{
+  padding-top: 60px;
+}
+
+.logo{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.tagline
+{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  color: #BABABA; /* IE8 proofing */ 
+  color: rgba(186,186,186,1);
+  /*color: #FFF;*/
+  /*color: rgba(255, 255, 255, 1);*/
+  border-bottom: 2px solid transparent;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.app-store-badge
+{
+  width: 180px;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #FFFFFF;
+  /*background-color: #E45043;*/
+}
+body {
+  color: rgba(186,186,186,1);
+}
+
+.privacy {
+  margin-top: 100px;
+}
+
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.1);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.1);*/
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  padding: 30px;
+}
+
+
+@media (min-width: 768px) {
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+  .text
+  {
+    text-align: right;
+    margin-left: 5%;
+    margin-top: 160px;
+  }
+
+  .linkTextingWidget .linkTextingInner {
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom: 40px;
+  }
+
+  .sharing {
+    text-align: right;
+  }
+
+  .logo {
+    margin-left: auto;
+  }
+
+  .apple-badge {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+    width: 80%;
+  }
+
+  /* My stuff */
+  .cover-container.text-page
+  {
+    width: 760px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  
+ .text {
+  text-align:center;
+  margin-top:10px;
+  margin-right:0px;
+ }
+
+ .logo {
+  width:90%;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+ }
+
+ .screenshots {
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+ }
+
+ .carousel {
+  margin-left:0px;
+ }
+ 
+ /* To Center */
+ ul {
+  padding-left:0px;
+ }
+
+ .links {
+  margin-top:10px;
+  margin-bottom:10px;
+ }
+ .addthis_center_wrapper
+  {
+    margin-left:0;
+  }
+  .addthis_native_toolbox 
+  {
+    width: 100px;
+    margin: 0 auto;
+  } 
+
+  .screenshot
+  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app-store-badge {
+    margin: 3px;
+    width: 220px;
+  }
+}
